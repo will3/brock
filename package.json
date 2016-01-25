@@ -1,0 +1,20 @@
+{
+  "name": "brock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "watchify -t coffeeify ./brock.coffee -o ./dist/brock.js -v --debug",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Will Zhou <will3.git@gmail.com> (http://github.com/will3)",
+  "license": "ISC",
+  "devDependencies": {
+    "coffeeify": "^2.0.1"
+  },
+  "dependencies": {
+    "lodash": "^4.0.0",
+    "three": "^0.73.2",
+    "tic": "^1.0.0"
+  }
+}
